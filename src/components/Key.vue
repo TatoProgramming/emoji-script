@@ -12,7 +12,7 @@ export default {
       this.$store.commit('addText', this.keyObj)
     }
   },
-  beforeMoujjjjkajsdf;lkkjasdfl;kjasdf;lkjsadflkjjjntjjjj () {
+  beforeMount () {
     window.addEventListener('keypress', (e) => {
       console.log(e.keyCode)
       if (e.keyCode === this.keyObj.keyCode) {

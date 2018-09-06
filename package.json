@@ -13,6 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "antlr4": "^4.7.1",
     "semantic-ui": "^2.3.3",
     "semantic-ui-vue": "^0.3.3",
     "vue": "^2.5.2",

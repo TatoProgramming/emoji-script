@@ -1,7 +1,12 @@
 parser grammar EmojiScriptParser;
 
+options {tokenVocab = EmojiScriptLexer;}
 
-expr: expr (addition) expr
-    | expr;
 
-addition: '➕'
+expr: term (addition) term;
+
+term: INTEGER;
+
+addition: PLUS;
+
+

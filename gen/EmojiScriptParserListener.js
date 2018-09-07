@@ -29,14 +29,5 @@ EmojiScriptParserListener.prototype.exitTerm = function(ctx) {
 };
 
 
-// Enter a parse tree produced by EmojiScriptParser#addition.
-EmojiScriptParserListener.prototype.enterAddition = function(ctx) {
-};
-
-// Exit a parse tree produced by EmojiScriptParser#addition.
-EmojiScriptParserListener.prototype.exitAddition = function(ctx) {
-};
-
-
 
 exports.EmojiScriptParserListener = EmojiScriptParserListener;

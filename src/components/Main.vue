@@ -18,6 +18,7 @@
 import Keyboard from './Keyboard'
 import Editor from './Editor'
 import Interpreter from '../interpreter/Interpreter'
+import NewInterpreter from '../interpreter/NewInterpreter'
 import Output from './Output'
 
 export default {
@@ -33,8 +34,9 @@ export default {
     run () {
       // console.log(this.inter.pos)
       // console.log(this.inter.getNextToken())
-      let result = new Interpreter(this.$store.state.nodes).main()
-      this.$store.commit('setResult', result)
+      // let result = new Interpreter(this.$store.state.nodes).main()
+      // this.$store.commit('setResult', result)
+      new NewInterpreter().run()
       // (this.inter.getNextToken())
     }
   }

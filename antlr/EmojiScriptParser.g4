@@ -2,11 +2,10 @@ parser grammar EmojiScriptParser;
 
 options {tokenVocab = EmojiScriptLexer;}
 
-
-expr: term (addition) term;
+expr: term+;
 
 term: INTEGER;
 
-addition: PLUS;
+//addition: PLUS;
 
 

@@ -6,7 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 /test/unit/coverage/
 
+
 # Editor directories and files
+.iml
 .idea
 .vscode
 *.suo
